@@ -1,5 +1,4 @@
 .idea/
 jsonMessageApp.iml
-out/artifacts/jsonMessageApp_war_exploded/WEB-INF/classes/com/justSpring/filters/
-target/classes/com/justSpring/filters/
-target/generated-sources/
+out/
+target/

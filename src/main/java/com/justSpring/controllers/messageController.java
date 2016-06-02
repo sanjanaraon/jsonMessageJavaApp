@@ -26,7 +26,7 @@ public class messageController {
 //
         return "{  \n" +
                 "   \"messages\":{  \n" +
-                "      \"message list\":{  \n" +
+                "      \"message-list\":{  \n" +
                 "         \"welcome\":\"good to see you in ember world!\",\n" +
                 "         \"wish\":\"all the best in the ember world!\"\n" +
                 "      }\n" +
@@ -41,7 +41,7 @@ public class messageController {
         HashMap<String, String> stringStringHashMap = new HashMap<String, String>();
         stringStringHashMap.put("welcome","this should be rendered using json");
         return "{  \n" +
-                "   \"message list\":{  \n" +
+                "   \"message\":{  \n" +
                 "      \"welcome\":\"good to see you in ember world!\",\n" +
                 "      \"wish\":\"all the best in the ember world!\"\n" +
                 "   }\n" +
